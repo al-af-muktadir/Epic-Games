@@ -105,14 +105,14 @@
     
   <div class="max-w-[1300px] mx-auto mt-8 sticky top-0 px-7 lg:px-0">
     <div class="navbar">
-        <div class="flex gap-12 ">
+        <div class="flex flex row">
             <div class="lg:hidden md:hidden">
                 <i class="fa-solid fa-magnifying-glass hover:"></i>
             </div>
             <div class="form-control hidden lg:flex">
               <input type="text" placeholder="Search Store" class="input input-bordered w-24 md:w-auto rounded-2xl bg-[#332f2f] border-none" />
             </div>
-            <div class=" ml-7 lg:ml-0" > 
+            <div class=" ml-7 lg:ml-12" > 
                 <ul class="flex gap-8 text-zinc-400" >
                     <li class="text-white" >Discover <i class="fa-solid fa-caret-down lg:hidden md:hidden"></i></li>
                     <li class="hidden lg:flex">Browse</li>
@@ -137,11 +137,11 @@
         <div class=" carousel w-full">
             <div id="slide1" class="carousel-item relative w-full flex flex-col">
                 <div>
-                    <div class="flex justify-between">
-                        <div class="flex items-center mb-5">
+                    <div class="flex justify-between mb-5">
+                        <div class="flex items-center ">
                            <h4 class="text-white mr-3">Featured Documents </h4> <i class="fa-solid fa-chevron-right text-white "></i>
                         </div>
-                        <div class="flex gap-5 mb-5 hidden lg:flex md:flex">
+                        <div class="flex gap-5 hidden lg:flex md:flex">
                             <a href="#slide4"><i class="fa-solid fa-circle-chevron-left text-white text-2xl"></i></a> 
                             <a href="#slide2"><i class="fa-solid fa-circle-chevron-right  text-white text-2xl" ></i></a>
                           </div>
@@ -149,22 +149,21 @@
                 </div>
                 
 
-               <div class="flex flex-col lg:flex-row">
-                <div class="max-w-sm rounded-lg shadow bg-black mr-5 mb-3 lg:mb-0 lg:ml-2">
+               <div class="grid grid-cols-1 lg:grid-cols-5">
+                <div class="max-w-sm rounded-lg shadow bg-black mr-5 mb-16 lg:mb-0 lg:ml-2">
                     <a href="#">
-                        <img class="rounded-t-lg w-full lg:h-[270px]" src="image-1.jpg" alt="" />
+                        <img class="rounded-t-lg w-full h-[485px] lg:h-[330px] hover:opacity-75" src="image-1.jpg" alt="" />
                     </a>
-                    <div class="p-5">
+                    <div class="pt-3">
                         <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <p class="mb-3 font-normal text-white">Crysis</p>
+                        <div class="card-actions flex items-center">
+                            <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                            <strike class="text-slate-400  font-semibold">$69.99</strike>
+                            <p class="text text-white  font-semibold">$23.09</p>
+                          </div>
                     </div>
                 </div>
                 
@@ -174,106 +173,83 @@
                              
                                     
                 
-                <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+                <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
                     <a href="#">
-                        <img class="rounded-t-lg w-full" src="image-2.jpg" alt="" />
+                        <img class="rounded-t-lg w-full h-[430px] lg:h-[330px] hover:opacity-75" src="image-2.jpg" alt="" />
                     </a>
-                    <div class="p-5">
+                    <div class="pt-3">
                         <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <p class="mb-3 font-normal text-white">Tomb Rider</p>
+                        <div class="card-actions flex items-center">
+                            <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                            <strike class="text-slate-400  font-semibold">$69.99</strike>
+                            <p class="text text-white  font-semibold">$23.09</p>
+                          </div>
                     </div>
                 </div>
                 
                                    
                                       
                 
-                <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+                <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
                     <a href="#">
-                        <img class="rounded-t-lg w-full" src="image-3.jpg" alt="" />
+                        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-3.jpg" alt="" />
                     </a>
-                    <div class="p-5">
+                    <div class="pt-3">
                         <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <p class="mb-3 font-normal text-white">CyberPunk</p>
+                        <div class="card-actions flex items-center">
+                            <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                            <strike class="text-slate-400  font-semibold">$69.99</strike>
+                            <p class="text text-white  font-semibold">$23.09</p>
+                          </div>
                     </div>
                 </div>
                 
                                         
                                            
                 
-                <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+                <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
                     <a href="#">
-                        <img class="rounded-t-lg w-full" src="image-4.jpg" alt="" />
+                        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-4.jpg" alt="" />
                     </a>
-                    <div class="p-5">
+                    <div class="pt-3">
                         <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <p class="mb-3 font-normal text-white">BattleFeild 3</p>
+                        <div class="card-actions flex items-center">
+                            <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                            <strike class="text-slate-400  font-semibold">$69.99</strike>
+                            <p class="text text-white  font-semibold">$23.09</p>
+                          </div>
                     </div>
                 </div>
                 
                                             
                                                 
                 
-                <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+                <div class="max-w-sm bg-black mr-5 mb-6 lg:mb-0">
                     <a href="#">
-                        <img class="rounded-t-lg w-full lg:h-[285px]" src="image-5.webp" alt="" />
+                        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-5.webp" alt="" />
                     </a>
-                    <div class="p-5">
+                    <div class="pt-3">
                         <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <p class="mb-3 font-normal text-white">S.T.A.L.K.E.R 2</p>
+                        <div class="card-actions flex items-center">
+                            <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                            <strike class="text-slate-400  font-semibold">$69.99</strike>
+                            <p class="text text-white  font-semibold">$23.09</p>
+                          </div>
                     </div>
                 </div>
-                
-                                                   
-                
-                <div class="max-w-sm bg-black mr-4 lg:mr-2 lg:mb-0">
-                    <a href="#">
-                        <img class="rounded-t-lg w-full" src="image-6.jpg" alt="" />
-                    </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+            
                   </div>
                </div>
 
@@ -293,22 +269,21 @@
         </div>
     </div>
 
-   <div class="flex flex-col lg:flex-row">
-    <div class="max-w-smbg-black mr-5 mb-3 lg:mb-0 lg:ml-2">
+   <div class="grid grid-cols-1 lg:grid-cols-5">
+    <div class="max-w-smbg-black mr-5 mb-16 lg:mb-0 lg:ml-2">
         <a href="#">
-        <img class="rounded-t-lg w-full" src="image-7.jpg" alt="" />
+        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-7.jpg" alt="" />
         </a>
-        <div class="p-5">
-        <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-        </a>
+        <div class="pt-3">
+            <a href="#">
+                <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
+            </a>
+            <p class="mb-3 font-normal text-white">Dying Light 2</p>
+            <div class="card-actions flex items-center">
+                <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                <strike class="text-slate-400  font-semibold">$69.99</strike>
+                <p class="text text-white  font-semibold">$23.09</p>
+              </div>
         </div>
         </div>
         
@@ -318,106 +293,86 @@
          
                 
         
-        <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+        <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
         <a href="#">
-        <img class="rounded-t-lg w-full" src="image-7.jpg" alt="" />
+        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="top-11.jpg" alt="" />
         </a>
-        <div class="p-5">
-        <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-        </a>
+        <div class="pt-3">
+            <a href="#">
+                <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
+            </a>
+            <p class="mb-3 font-normal text-white">Spiderman</p>
+            <div class="card-actions flex items-center">
+                <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                <strike class="text-slate-400  font-semibold">$69.99</strike>
+                <p class="text text-white  font-semibold">$23.09</p>
+              </div>
         </div>
         </div>
         
                
                   
         
-        <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+        <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
         <a href="#">
-        <img class="rounded-t-lg w-full" src="image-3.jpg" alt="" />
+        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-3.jpg" alt="" />
         </a>
-        <div class="p-5">
-        <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-        </a>
+        <div class="pt-3">
+            <a href="#">
+                <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
+            </a>
+            <p class="mb-3 font-normal text-white">Cyberpunk</p>
+            <div class="card-actions flex items-center">
+                <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                <strike class="text-slate-400  font-semibold">$69.99</strike>
+                <p class="text text-white  font-semibold">$23.09</p>
+              </div>
         </div>
         </div>
         
                     
                        
         
-        <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+        <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
         <a href="#">
-        <img class="rounded-t-lg w-full" src="image-4.jpg" alt="" />
+        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-4.jpg" alt="" />
         </a>
-        <div class="p-5">
-        <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-        </a>
+        <div class="pt-3">
+            <a href="#">
+                <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
+            </a>
+            <p class="mb-3 font-normal text-white">BattleFeild 3</p>
+            <div class="card-actions flex items-center">
+                <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                <strike class="text-slate-400  font-semibold">$69.99</strike>
+                <p class="text text-white  font-semibold">$23.09</p>
+              </div>
         </div>
         </div>
         
                         
                             
         
-        <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+        <div class="max-w-sm bg-black mr-5 mb-6 lg:mb-0">
         <a href="#">
-        <img class="rounded-t-lg w-full h-[330px] lg:h-[285px]" src="image-5.webp" alt="" />
+        <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-5.webp" alt="" />
         </a>
-        <div class="p-5">
-        <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-        </a>
+        <div class="pt-3">
+            <a href="#">
+                <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
+            </a>
+            <p class="mb-3 font-normal text-white">S.T.A.L.K.E.R 2</p>
+            <div class="card-actions flex items-center">
+                <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                <strike class="text-slate-400  font-semibold">$69.99</strike>
+                <p class="text text-white  font-semibold">$23.09</p>
+              </div>
         </div>
         </div>
         
                                
         
-        <div class="max-w-sm bg-black mr-4 lg:mr-2 lg:mb-0">
-        <a href="#">
-        <img class="rounded-t-lg w-full" src="image-6.jpg" alt="" />
-        </a>
-        <div class="p-5">
-        <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Read more
-         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-        </a>
-        </div>
-        </div>
+       
         </div> 
    </div>
 
@@ -441,22 +396,21 @@
                 </div>
                 
 
-         <div class="flex flex-col lg:flex-row">
-            <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0 lg:ml-2 ">
+         <div class="grid grid-cols-1 lg:grid-cols-5">
+            <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0 lg:ml-2 ">
                 <a href="#">
-                    <img class="rounded-t-lg w-full" src="image-8.jpg" alt="" />
+                    <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-8.jpg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="pt-3">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
+                    <p class="mb-3 font-normal text-white">Red Dead Redemption</p>
+                    <div class="card-actions flex items-center">
+                        <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                        <strike class="text-slate-400  font-semibold">$69.99</strike>
+                        <p class="text text-white  font-semibold">$23.09</p>
+                      </div>
                 </div>
             </div>
             
@@ -466,109 +420,82 @@
                          
                                 
             
-            <div class="max-w-sm  bg-black mr-5 mb-3 lg:mb-0">
+            <div class="max-w-sm  bg-black mr-5 mb-16 lg:mb-0">
                 <a href="#">
-                    <img class="rounded-t-lg w-full" src="image-8.jpg" alt="" />
+                    <img class="rounded-t-lg w-full h-[450px] lg:h-[330px] hover:opacity-75" src="top-8.jpg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="pt-3">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
+                    <p class="mb-3 font-normal text-white">Devil May Cry 5</p>
+                    <div class="card-actions flex items-center">
+                        <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                        <strike class="text-slate-400  font-semibold">$69.99</strike>
+                        <p class="text text-white  font-semibold">$23.09</p>
+                      </div>
                 </div>
             </div>
             
                                
                                   
             
-            <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+            <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
                 <a href="#">
-                    <img class="rounded-t-lg w-full" src="image-3.jpg" alt="" />
+                    <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-3.jpg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="pt-3">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
+                    <p class="mb-3 font-normal text-white">CyberPunk</p>
+                    <div class="card-actions flex items-center">
+                        <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                        <strike class="text-slate-400  font-semibold">$69.99</strike>
+                        <p class="text text-white  font-semibold">$23.09</p>
+                      </div>
                 </div>
             </div>
             
                                     
                                        
             
-            <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+            <div class="max-w-sm bg-black mr-5 mb-16 lg:mb-0">
                 <a href="#">
-                    <img class="rounded-t-lg w-full" src="image-4.jpg" alt="" />
+                    <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-4.jpg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="pt-3">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
+                    <p class="mb-3 font-normal text-white">BattleFeild 3</p>
+                    <div class="card-actions flex items-center">
+                        <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                        <strike class="text-slate-400  font-semibold">$69.99</strike>
+                        <p class="text text-white  font-semibold">$23.09</p>
+                      </div>
                 </div>
             </div>
             
                                         
                                             
             
-            <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0">
+            <div class="max-w-sm bg-black mr-5 mb-6 lg:mb-0">
                 <a href="#">
-                    <img class="rounded-t-lg w-full h-[330px] lg:h-[285px]" src="image-5.webp" alt="" />
+                    <img class="rounded-t-lg w-full lg:h-[330px] hover:opacity-75" src="image-5.webp" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="pt-3">
                     <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-600">Base Game</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
+                    <p class="mb-3 font-normal text-white">S.T.A.L.K.E.R 2</p>
+                    <div class="card-actions flex items-center">
+                        <button class=" bg-blue-800 p-1 rounded-lg">-67%</button>
+                        <strike class="text-slate-400  font-semibold">$69.99</strike>
+                        <p class="text text-white  font-semibold">$23.09</p>
+                      </div>
                 </div>
             </div>
-            
-                                               
-            
-            <div class="max-w-sm bg-black mr-4 lg:mr-2  lg:mb-0">
-                <a href="#">
-                    <img class="rounded-t-lg w-full" src="image-6.jpg" alt="" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
-                </div>
-
-         </div>      
-
-
 </div>
   </div> 
           
@@ -577,7 +504,7 @@
 
 
 
-    <section class=" flex justify-between mt-10">
+    <section class=" flex justify-between mt-10 mb-16 lg:mb-0">
         <div class="carousel carousel-center max-w-md lg:max-w-full p-4 bg-neutral lg:invisible">
             <div class="carousel-item lg:invisible"> <div class="card card-compact w-96 bg-base-100 shadow-xl lg:visible mr-4 lg:mr-16">
                 <figure><img class="hover:opacity-40 picture"  src="ss-2.png" alt="Shoes" />
@@ -633,7 +560,7 @@
 
     <!-- free games -->
 
-    <section class="bg-gray-800 px-5 py-5 rounded-sm mx-3 lg:mx-0 mt-4">
+    <section class="bg-gray-800 px-5 py-5 rounded-sm mx-3 lg:mx-0 mt-4 lg:mb-0 mb-16">
 <div class="flex justify-between">
     <div class="flex items-center gap-2 lg:gap-5">
         <i class="fa-solid fa-gift text-3xl"></i>
@@ -646,46 +573,19 @@
 
 
 
-
+<div class=" carousel carousel-end rounded-box flex lg:hidden mt-4">
+    <div class="carousel-item flex flex-col">
+      <img class="w-4/5" src="free-1.png" alt="Drink" />
+      <h3 class="font-light text-white text-sm mt-4">Infinifactory</h3>
+      <p class="font-light text-sm text-gray-400">Free Now - Feb 01 at 10:00 PM</p>
+    </div> 
+    <div class="carousel-item flex flex-col">
+      <img class="w-4/5" src="free-2.png" alt="Drink" />
+      <h3 class="font-light text-white text-sm mt-4">Doors Paradox</h3>
+      <p class="font-light text-sm text-gray-400">Free Now Feb 01-Feb 08 </p>
+    </div> 
+    </div>
    
-
-<div id="indicators-carousel" class="relative w-full lg:hidden" data-carousel="static">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-         <!-- Item 1 -->
-        <div class="duration-700 ease-in-out" data-carousel-item="active">
-            <img src="free-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 2 -->
-        <div class=" duration-700 ease-in-out" data-carousel-item>
-            <img src="free-2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-       
-    </div>
-    <!-- Slider indicators -->
-    <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-       
-    </div>
-    <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div>
 
 
 
@@ -708,9 +608,9 @@
 
 
     <!-- fortnite -->
-    <section class="mt-8 mx-3 lg:mx-0">
+    <section class="mt-16 mx-3 lg:mx-0">
         <div class="flex justify-between">
-            <div class="flex items-center mb-5">
+            <div class="flex items-center mb-10">
                <h4 class="text-white mr-3">Featured Documents </h4> <i class="fa-solid fa-chevron-right text-white "></i>
             </div>
             <div class="">
@@ -718,7 +618,7 @@
               </div>
         </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-[70px] mt-10">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-[70px]">
 
     <div class="card card-compact w-full lg:w-96 bg-base-100 shadow-xl lg:visible lg:mr-4 lg:mr-16">
         <figure><img class="hover:opacity-40 picture w-full"  src="lego.jpg" alt="Shoes" />
@@ -776,7 +676,7 @@
 
 
     <!-- alen wake -->
-    <section class=" flex justify-between mt-10">
+    <section class=" flex justify-between mt-16  lg:mt-10">
         <div class="carousel carousel-center max-w-md lg:max-w-full p-4 bg-neutral lg:invisible">
             <div class="carousel-item lg:invisible"> <div class="card card-compact w-96 bg-base-100 shadow-xl lg:visible mr-4 lg:mr-16">
                 <figure><img class="hover:opacity-40 picture w-full"  src="alen-1.jpg" alt="Shoes" />
@@ -831,7 +731,7 @@
     </section>
 
 <!-- topseller -->
-<section class="max-w-[1350px] mt-6">
+<section class="max-w-[1350px] mt-16  lg:mt-10">
     <div class="carousel carousel-center rounded-box lg:invisible ">
         <div class="grid grid-cols-1 lg:grid-cols-3 lg:visible gap-6 ">
             <div class="carousel-item flex flex-col border-r-2 pr-6 border-gray-800">
@@ -1071,10 +971,10 @@
         </div>
 </section>
 
-<section class="">
+<section class="mt-10 lg:mt-16">
 
 
-    <div class="flex gap-5 px-3  lg:px-0 lg:flex">
+    <div class="flex gap-5 px-3  lg:px-0 lg:flex ">
         <div class="mt-4">
             <img class="rounded-xl hover:opacity-65 " src="car.png" alt="">
             <h3 class="font-light text-white text-xl mt-4">Fortnite
@@ -1096,10 +996,10 @@
     </div>
 </section>
 
-<section class="pl-6 mx-3 mt-3 lg:mx-0  lg:pl-0 lg:mt-12">
-    <div class="mb-6">
-        <div class="flex justify-between lg:mb-5 ">
-            <div class="flex items-center mb-5 ">
+<section class="ml-4 mt-16 lg:mx-0  lg:pl-0 lg:mt-16">
+    <div class=" mb-10 lg:mb-6">
+        <div class="flex justify-between ">
+            <div class="flex items-center">
                <h4 class="text-white mr-3">Trending</h4> <i class="fa-solid fa-chevron-right text-white "></i>
             </div>
             <button class="btn sm:btn-sm  border-2 border-white rounded-md text-white px-3">View More</button>
@@ -1231,7 +1131,7 @@
                <div class="grid grid-cols-1 lg:grid-cols-5">
                 <div class="max-w-sm rounded-lg shadow bg-black mr-5 mb-3 lg:mb-0 lg:ml-2">
                     <a href="#">
-                        <img class="rounded-xl w-full h-[330px] hover:opacity-75" src="upcoming-1.jpg" alt="" />
+                        <img class="rounded-xl w-full lg:h-[330px] hover:opacity-75" src="upcoming-1.jpg" alt="" />
                     </a>
                     <div class="pt-3">
                         <a href="#">
@@ -1450,7 +1350,7 @@
          <div class="grid grid-cols-1 lg:grid-cols-5">
             <div class="max-w-sm bg-black mr-5 mb-3 lg:mb-0 lg:ml-2 ">
                 <a href="#">
-                    <img class="rounded-t-lg w-full hover:opacity-75 lg:h-[320px]" src="top-11.jpg" alt="" />
+                    <img class="rounded-t-lg w-full hover:opacity-75 lg:h-[320px] mt-3 lg:mt-0" src="top-11.jpg" alt="" />
                 </a>
                 <div class="pt-3">
                     <a href="#">
@@ -1468,9 +1368,9 @@
                          
                                 
             
-            <div class="max-w-sm  bg-black mr-5 mb-3 lg:mb-0">
+            <div class="max-w-sm  bg-black mr-5 mb-5 lg:mb-0">
                 <a href="#">
-                    <img class="rounded-t-lg w-full hover:opacity-75" src="top-seller-2.jpg" alt="" />
+                    <img class="rounded-t-lg w-full hover:opacity-75 mt-3 lg:mt-0" src="top-seller-2.jpg" alt="" />
                 </a>
                 <div class="pt-3">
                     <a href="#">
