@@ -17,11 +17,7 @@
         font-family: 'Inter', sans-serif;
     }
     body{
-     background-image: url("bg.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
+    background: #000;
     }
     .picture:hover+.icon{
         opacity:1;
@@ -32,7 +28,13 @@
     ul li:hover .card-hold{
         background:#121212;
     }
-
+    .box{
+        background-image: url(popcover.jpg);
+        background-position: center;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     
 </style>
@@ -105,6 +107,7 @@
     </div>
 </div>
 </nav>
+</header>
     
   <div class="mt-8 px-7 lg:px-0  sticky top-0 z-50 py-5 bg-black ">
     <div class="max-w-[1200px] mx-auto">
@@ -134,11 +137,14 @@
     </div>
     
    </div>
-   
+  
 <main class="max-w-[1300px] mx-auto -z-50">
 
 
-    <div class="max-w-[1300px] m-auto mt-36 lg:px-0 pl-4">
+    <!--  -->
+   
+<!--  -->
+    <div class="max-w-[1300px] m-auto mt-20 lg:px-0 pl-4">
      
         <div class=" carousel w-full">
             <div id="slide1" class="carousel-item relative w-full flex flex-col">
@@ -617,11 +623,12 @@
     <section class="mt-16 mx-3 lg:mx-0">
         <div class="flex justify-between">
             <div class="flex items-center mb-10">
-               <h4 class="text-white mr-3">Featured Documents </h4> <i class="fa-solid fa-chevron-right text-white "></i>
-            </div>
-            <div class="">
-              <a href=""><button class="btn btn-xs sm:btn-sm lg:btn-md border-2 border-white rounded-md text-white px-3">Visit Fortnite.com</button></a> 
-              </div>
+                <h4 class="text-white mr-3">Featured Documents </h4> <i class="fa-solid fa-chevron-right text-white "></i>
+             </div>
+            
+                <button class="btn btn-outline">visit Fornite.com</button>
+               
+         </div>
         </div>
 
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-[70px] ">
@@ -741,15 +748,15 @@
     <div class="carousel carousel-center rounded-box lg:invisible ">
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 lg:visible gap-6 ">
             <div class="carousel-item flex flex-col border-r-2 md:pr-3 pr-6 border-gray-800">
-                <div class="flex md:flex-col flex-row md:gap-7 justify-between mb-12 items-center px-3  lg:px-0">
+                <div class="flex md:flex-col lg:flex-row md:gap-7 justify-between mb-12 md:items-center pl-2  lg:px-0">
     <h3 class="font-thin text-3xl text-white">Top Sellers</h3>
-    <button class="border-white border-2 rounded-md w-[108px] px-3 py-1 text-white">View More</button>
+    <button class="btn btn-outline text-white">View More</button>
     
                 </div>
                 <ul class="space-y-4">
                     <li class=" flex rounded-xl">
                         <div class="card card-side shadow-xl hover:opacity-60 py-2 pl-5  card-hold">
-                            <img class="w-1/5" src="upcoming-1.jpg"/>
+                            <img class="w-1/5" src="gtavpopular.png"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
                                 <p class="text-sm ">Grand Theft Auto V:premium...</p>
                                 <p class="text-sm">$19.99 </p>
@@ -763,7 +770,7 @@
                     <li class=" flex rounded-xl">
     
                             <div class="card card-side shadow-xl hover:opacity-60 py-3 pl-5  card-hold">
-                                <img class="w-1/5" src="top-seller-2.jpg"/>
+                                <img class="w-1/5" src="pop.png"/>
                                 <div class="flex flex-col ml-3 justify-center text-white">
                                     <p class="text-sm ">Prince of Persia: The Lost Crown</p>
                                     <p class="text-sm">$59.99 </p>
@@ -806,7 +813,7 @@
                         <div class="card card-side shadow-xl hover:opacity-60 card-hold py-3 pl-5  card-hold">
                             <img class="w-1/5" src="top-3.jpg"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">Grand Theft Auto V:premium...</p>
+                                <p class="text-sm ">Skull and bones</p>
                                 <p class="text-sm">$19.99 </p>
                             </div>
                               
@@ -818,9 +825,9 @@
               </div>
                <!--2nd col  -->
               <div class="carousel-item flex flex-col border-r-2 pr-3 lg:pr-6 border-gray-800  ">
-                <div class="flex md:flex-col flex-row md:gap-7 justify-between items-center mb-12 px-3  lg:px-0">
+                <div class="flex md:flex-col lg:flex-row md:gap-7 justify-between mb-12 md:items-center pl-2  lg:px-0">
                     <h3 class="font-thin text-3xl text-white">Most Played</h3>
-                    <button class="border-white border-2 rounded-md w-[108px] px-3 py-1 text-white">View More</button>
+                    <button class="btn btn-outline text-white">View More</button>
                     
                                 </div>
                 <ul class="space-y-4">
@@ -828,7 +835,7 @@
                         <div class="card card-side shadow-xl hover:opacity-60 py-2 pl-5  card-hold">
                             <img class="w-1/4 " src="fortnite.jpg"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">Grand Theft Auto V:premium...</p>
+                                <p class="text-sm ">Fortnite</p>
                                 <p class="text-sm">$19.99 </p>
                             </div>
                               
@@ -842,7 +849,7 @@
                             <div class="card card-side shadow-xl hover:opacity-60 py-3 pl-5  card-hold">
                                 <img class="w-1/4" src="okay.jpg"/>
                                 <div class="flex flex-col ml-3 justify-center text-white">
-                                    <p class="text-sm ">Prince of Persia: The Lost Crown</p>
+                                    <p class="text-sm ">Valorent</p>
                                     <p class="text-sm">$59.99 </p>
                                 </div>
                                   
@@ -857,7 +864,7 @@
                         <div class="card card-side  shadow-xl hover:opacity-60 card-hold py-5 pl-5  card-hold w-full">
                             <img class="w-[20%]" src="rocket.jpg"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">God Of War 4</p>
+                                <p class="text-sm ">Rocket League</p>
                                 <p class="text-sm">Free</p>
                             </div>
                               
@@ -868,9 +875,9 @@
                     <!--  -->
                     <li class=" flex rounded-xl">
                         <div class="card card-side shadow-xl hover:opacity-60 card-hold py-3 pl-5  card-hold w-full">
-                            <img class="w-[20%]" src="upcoming-1.jpg"/>
+                            <img class="w-[20%]" src="gtavpopular.png"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">Mafia II</p>
+                                <p class="text-sm ">Grand Theft Auto</p>
                                 <p class="text-sm">$29.99 </p>
                             </div>
                               
@@ -883,7 +890,7 @@
                         <div class="card card-side shadow-xl hover:opacity-60 card-hold py-3 pl-5  card-hold">
                             <img class="w-1/5" src="top-7.jpg"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">Grand Theft Auto V:premium...</p>
+                                <p class="text-sm ">Genshin Impact</p>
                                 <p class="text-sm">$19.99 </p>
                             </div>
                               
@@ -895,18 +902,19 @@
               </div>
              
               <!-- 3rdcol -->
-              <div class="carousel-item flex flex-col pr-5 lg:pr-10 border-r-2 border-gray-800">
-                <div class="flex md:flex-col md:items-center md:text-center flex-row md:gap-7 justify-between mb-4 gap-14 px-3 lg:px-0 lg:items-center">
+              <div class="carousel-item flex flex-col pr-5 border-r-2 border-gray-800">
+             
+                <div class="flex md:flex-col lg:flex-row md:gap-7 justify-between mb-12 items-center pl-2  lg:px-0">
                     <p class="font-thin text-3xl text-white">Top Upcoming WishListed</p>
-                    <button class="border-white border-2 rounded-md w-[108px] px-3 py-1 text-white">View More</button>
+                    <button class="btn btn-outline text-white">View More</button>
                     
                                 </div>
                 <ul class="space-y-4">
                     <li class=" flex rounded-xl">
                         <div class="card card-side shadow-xl hover:opacity-60 py-2 pl-5  card-hold">
-                            <img class="w-1/5 " src="top-8.jpg"/>
+                            <img class="w-1/5 " src="dmc.png"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">Grand Theft Auto V:premium...</p>
+                                <p class="text-sm ">Devil May Cry 5</p>
                                 <p class="text-sm">$19.99 </p>
                             </div>
                               
@@ -918,9 +926,9 @@
                     <li class=" flex rounded-xl">
     
                             <div class="card card-side shadow-xl hover:opacity-60 py-3 pl-5  card-hold">
-                                <img class="w-1/5" src="top-9.jpg"/>
+                                <img class="w-1/5" src="asassins.png"/>
                                 <div class="flex flex-col ml-3 justify-center text-white">
-                                    <p class="text-sm ">Prince of Persia: The Lost Crown</p>
+                                    <p class="text-sm ">Assasins Creed 2</p>
                                     <p class="text-sm">$59.99 </p>
                                 </div>
                                   
@@ -935,7 +943,7 @@
                         <div class="card card-side  shadow-xl hover:opacity-60 card-hold py-4 pl-5  card-hold w-full">
                             <img class="w-[20%]" src="fifa-19.jpg"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">God Of War 4</p>
+                                <p class="text-sm ">Fifa 19</p>
                                 <p class="text-sm">Free</p>
                             </div>
                               
@@ -946,9 +954,9 @@
                     <!--  -->
                     <li class=" flex rounded-xl">
                         <div class="card card-side shadow-xl hover:opacity-60 card-hold py-3 pl-5  card-hold w-full">
-                            <img class="w-[20%]" src="top-11.jpg"/>
+                            <img class="w-[20%]" src="spiderman.png"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">Mafia II</p>
+                                <p class="text-sm ">Spiderman</p>
                                 <p class="text-sm">$29.99 </p>
                             </div>
                               
@@ -961,7 +969,7 @@
                         <div class="card card-side shadow-xl hover:opacity-60 card-hold py-3 pl-5  card-hold">
                             <img class="w-1/5" src="metro.jpg"/>
                             <div class="flex flex-col ml-3 justify-center text-white">
-                                <p class="text-sm ">Grand Theft Auto V:premium...</p>
+                                <p class="text-sm ">Metro</p>
                                 <p class="text-sm">$19.99 </p>
                             </div>
                               
